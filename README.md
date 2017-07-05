@@ -1,45 +1,14 @@
-Oct. 17th, 2014
+Physics Based Simulation: Deformation simulation by FEM
+====
 
+Overview
 
+This porject is for learning how to implement Finite Element Method for deformation simulation in C. Let's fill in the code at TODO.
+
+## Demo
 [![Solid FEM](https://img.youtube.com/vi/ESifso8Z9a8/0.jpg)](https://www.youtube.com/watch?v=ESifso8Z9a8 "Solid FEM")
 
-
-This program was created by Shunsuke Yoshimoto, Osaka University
-
-Contact: yoshimoto[at]bpe.es.osaka-u.ac.jp
-
-
-
-0.Compile
-
-LIB:math,glut,OpenGL
-
-FEM Data PATH: ../data/sphere.fem
-
-
-*LinuxまたはCygwin:
-
-gcc main.c GLTool.c MathTool.c Mesh.c SolidFEM.c -o test -lglut -lGL -lGLU
-
-./test ../data/sphere.fem
-
-
-
-※ 注意
-
-freeglut(./@.c):failed to open display
-
-と出たら，
-
-$ export DISPLAY=:0
-
-$ startxwin
-
-既にXプロセスが起動している場合は一度落とす
-
-
-
-1.Command Key
+Command Key
 
 q:quit
 
@@ -56,3 +25,23 @@ i:clear deformation
 c:clear node settings
 
 -when main window is active
+
+## Requirement
+
+glut,OpenGL
+
+FEM Data : ../data/sphere.fem
+
+## Compile command
+
+gcc main.c GLTool.c MathTool.c Mesh.c SolidFEM.c -o test -lglut -lGL -lGLU
+
+./test ../data/sphere.fem
+
+## Licence
+
+[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+
+## Author
+
+[yoshimoto56](https://github.com/yoshimoto56)
