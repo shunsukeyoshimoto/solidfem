@@ -3,11 +3,9 @@ FEM analysis: Linear Elastic Object
 
 Overview
 
-This porject is for learning how to implement Finite Element Method(FEM) for deformation simulation. Let's fill in the code at TODO.
+This porject is for learning how to implement Finite Element Method (FEM) for deformation simulation in C language. Let's fill in the code at TODO.
 
 ## Text
-Please learn the principle of FEM to complete the source code.
-
 [See here](https://github.com/yoshimoto56/solidfem/blob/master/text/FEM_text_en.pdf)
 
 ## Demo
