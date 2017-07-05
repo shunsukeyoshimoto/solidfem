@@ -1,9 +1,9 @@
-Physics Based Simulation: Deformation simulation by FEM
+FEM analysis: Linear Elastic Object 
 ====
 
 Overview
 
-This porject is for learning how to implement Finite Element Method for deformation simulation in C. Let's fill in the code at TODO.
+This porject is for learning how to implement Finite Element Method for deformation simulation. Let's fill in the code at TODO.
 
 ## Demo
 [![Solid FEM](https://img.youtube.com/vi/ESifso8Z9a8/0.jpg)](https://www.youtube.com/watch?v=ESifso8Z9a8 "Solid FEM")
