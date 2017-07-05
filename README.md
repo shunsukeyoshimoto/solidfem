@@ -40,7 +40,7 @@ Command Key - when main window is active
 
 ## Licence
 
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+[MIT](https://github.com/yoshimoto56/solidfem/blob/master/LICENSE)
 
 ## Author
 
