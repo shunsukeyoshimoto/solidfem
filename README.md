@@ -8,35 +8,32 @@ This porject is for learning how to implement Finite Element Method for deformat
 ## Demo
 [![Solid FEM](https://img.youtube.com/vi/ESifso8Z9a8/0.jpg)](https://www.youtube.com/watch?v=ESifso8Z9a8 "Solid FEM")
 
-Command Key
+Command Key - when main window is active
 
-q:quit
+    q:quit
 
-r:rotate object
+    r:rotate object
 
-n:select node(left:fixed,middle:input,right:free)
+    n:select node(left:fixed,middle:input,right:free)
 
-s:calculate inverse stiffness matrix
+    s:calculate inverse stiffness matrix
 
-f:fem simulation mode
+    f:fem simulation mode
 
-i:clear deformation
+    i:clear deformation
 
-c:clear node settings
-
--when main window is active
+    c:clear node settings
 
 ## Requirement
 
-glut,OpenGL
-
-FEM Data : ../data/sphere.fem
+-glut,OpenGL
+-FEM Data : ../data/sphere.fem
 
 ## Compile command
 
-gcc main.c GLTool.c MathTool.c Mesh.c SolidFEM.c -o test -lglut -lGL -lGLU
+    $ gcc main.c GLTool.c MathTool.c Mesh.c SolidFEM.c -o test -lglut -lGL -lGLU
 
-./test ../data/sphere.fem
+    $ ./test ../data/sphere.fem
 
 ## Licence
 
