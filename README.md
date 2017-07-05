@@ -7,7 +7,8 @@ This porject is for learning how to implement Finite Element Method(FEM) for def
 
 ## Text
 Please learn the principle of FEM to complete the source code.
-[Text](https://github.com/yoshimoto56/solidfem/text)
+
+[See here](https://github.com/yoshimoto56/solidfem/blob/master/text/FEM_workshop.pdf)
 
 ## Demo
 [![Solid FEM](https://img.youtube.com/vi/ESifso8Z9a8/0.jpg)](https://www.youtube.com/watch?v=ESifso8Z9a8 "Solid FEM")
